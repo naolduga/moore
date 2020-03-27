@@ -477,7 +477,10 @@ dependencies = [
 name = "moore-svlog-syntax"
 version = "0.10.0-dev"
 dependencies = [
+ "anyhow 1.0.28 (registry+https://github.com/rust-lang/crates.io-index)",
  "backtrace 0.3.46 (registry+https://github.com/rust-lang/crates.io-index)",
+ "clap 2.33.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "env_logger 0.7.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "moore-common 0.10.0-dev",
  "moore-derive 0.10.0-dev",
